@@ -1,0 +1,39 @@
+.item-details {
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+  }
+  
+  .item-details img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .item-info {
+    flex: 1;
+  }
+  
+  .item-info h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .item-info p {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .item-info button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .item-info button:hover {
+    background-color: #555;
+  }
+  

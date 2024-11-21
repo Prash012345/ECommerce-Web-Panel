@@ -1,0 +1,32 @@
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .item {
+    flex: 1 1 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .item img {
+    width: 100px !important; 
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .item p {
+    font-size: 16px;
+    color: #888;
+  }
+  
