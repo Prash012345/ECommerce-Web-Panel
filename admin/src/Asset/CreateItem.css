@@ -1,0 +1,32 @@
+/* CreateItem.css */
+
+.create-item {
+    flex: 1;
+  }
+  
+  .create-item form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  input, select, textarea {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 0.75rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  

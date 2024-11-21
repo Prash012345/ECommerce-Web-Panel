@@ -1,0 +1,53 @@
+/* UpdateItem.css */
+
+.container {
+    display: flex; /* Enable flexbox for the container */
+    justify-content: center; /* Center child elements horizontally */
+    align-items: center; /* Center child elements vertically */
+    height: 100%; /* Full height of the body */
+    width: 100%; /* Full width of the body */
+}
+
+.update-item-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    background-color: #fff;
+    justify-content: center;      /* Center items horizontally */
+    align-items: center;  
+    width: 80%;  
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.update-item-container {
+    display: flex;
+    justify-content: center;      /* Center form horizontally */
+    align-items: center;          /* Center form vertically */
+    min-height: 100vh;            /* Ensure the container takes full screen height */
+    background-color: #f7f7f7;    /* Background color for the container */
+}
+
+.update-item-form input, 
+.update-item-form select, 
+.update-item-form textarea {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.update-item-form button {
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update-item-form button:hover {
+    background-color: #0056b3;
+}
